@@ -1,0 +1,21 @@
+{
+  "name": "Mila",
+  "version": "1.0.0",
+  "description": "Algorithms and Mathmatics Explained in Canvas",
+  "main": "app.js",
+  "scripts": {
+    "webpack": "webpack --progress --colors --watch"
+  },
+  "author": "Hui Wang",
+  "license": "ISC",
+  "dependencies": {
+    "konva": "^1.7.6",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.9.1"
+  }
+}
