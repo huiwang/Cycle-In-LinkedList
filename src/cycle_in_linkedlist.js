@@ -117,7 +117,6 @@ function draw(state) {
     layer.add(walker);
     layer.add(runner);
     stage.add(layer);
-    stage.scale(0.1, 0.1);
 
 }
 
