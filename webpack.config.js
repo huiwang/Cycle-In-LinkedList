@@ -1,5 +1,3 @@
-const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
-
 module.exports = {
     entry: {
         filename: './app.js'

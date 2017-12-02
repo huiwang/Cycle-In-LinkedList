@@ -18,7 +18,7 @@ var rect = new Konva.Rect({
     height: 50,
     fill: 'green',
     stroke: 'black',
-    strokeWidth: 4
+    strokeWidth: 5
 });
 
 // add the shape to the layer
