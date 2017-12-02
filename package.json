@@ -1,8 +1,8 @@
 {
-  "name": "Mila",
+  "name": "Cycle and singlely linked list",
   "version": "1.0.0",
-  "description": "Algorithms and Mathmatics Explained in Canvas",
-  "main": "app.js",
+  "description": "Find entry node for a singly linked list with cycle",
+  "main": "main.js",
   "scripts": {
     "webpack": "webpack --progress --colors --watch"
   },
