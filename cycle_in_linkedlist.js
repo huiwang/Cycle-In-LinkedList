@@ -1,3 +1,4 @@
+import Konva from 'konva';
 const state = {
     out: 0,
     in: 0,

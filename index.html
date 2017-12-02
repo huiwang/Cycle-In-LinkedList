@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <title>Cycle in linked list</title>
     <style>
         body {
             margin: 0;
@@ -10,10 +10,26 @@
             overflow: hidden;
             background-color: #F0F0F0;
         }
+        #buttons {
+            position: absolute;
+            top: 5px;
+            left: 10px;
+        }
+        #buttons > input {
+            padding: 10px;
+            display: inline-block;
+            margin-right: 5px;
+        }
+
     </style>
 </head>
 <body>
 <div id="container"></div>
-<script src="build/bundle.js"></script>
+<div id="buttons">
+    <input type="button" id="next" value="下一步">
+    <input type="button" id="reset" value="重置">
+</div>
+<script src="build/bundle.js" type="module"></script>
+
 </body>
 </html>
